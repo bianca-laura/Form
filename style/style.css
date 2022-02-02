@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* para os inputs nao ultrapassarem a area maxima das divs que estão */
+  }
+  
+  html,
+  body,
+   #roof{
+    background-color: #efefef;
+    height: 100%;
+    font-family: cursive;
+  }
+  .main {
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+  .main h1 span {
+      color: rgb(241, 88, 113);
+      transition: 0.5s;
+      
+  }
+
+  .main h1 span:hover {
+    color: rgb(216, 68, 68);
+}
+
+.main p{
+    color: #7b7b7b;
+}
+
+form {
+    padding-top: 15px;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1em;
+}
+
+.dados input{
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+    width:250px;
+    margin-left: 42em;
+    margin-top: 5px;
+    color: #7b7b7b;
+}
+
+.dados select{
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+    width:250px;
+    margin-left: 42em;
+    margin-top: 5px;
+    color: #7b7b7b;
+}
+
+.dados textarea{
+    padding: .7em;
+    border-radius: 0;
+    border: none;
+    width:250px;
+    margin-left: 42em;
+    margin-top: 5px;
+    color: #7b7b7b;
+}
+
+textarea {
+    margin-top: 10px
+}
+
+label {
+    margin-right: 10px;
+}
+
+.comentario {
+    padding: 10px 0 0 23px;
+}
+
+.btn{
+    background-color: #222;
+    color: #fff;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: 0.5s; /* Tempo que fica o hover */
+}
+
+.btn:hover{
+    color: rgb(216, 68, 68);
+}
+
+
+
+
